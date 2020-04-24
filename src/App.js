@@ -18,6 +18,11 @@ function App() {
         >
           Learn React
         </a>
+
+        <p className="App-intro">
+          Hi there !, bye there 
+          docker-compose test
+        </p>
       </header>
     </div>
   );
