@@ -3,7 +3,7 @@ services:
     - docker
 
 before_install:
-    - docker build -t jagadalac/docker-react -f Dockerfile .
+    - docker build -t jagadalac/docker-react Dockerfile .
 
 script:
     - docker run jagadalac/docker-react npm run test -- --coverage --watchAll=false
